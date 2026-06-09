@@ -21,3 +21,90 @@
 # Git commit -m committs those changes to memory along with a message
 # Add the files you wanna save, and then committ
 # Git log gives us our saved files. Its a log of all saved changes
+# Github is a website like bitbucket and gitlab
+# All saved progress on my local machine can go to the site
+# Others can see the code and do whatever they want with it
+
+"""
+Git is a memory card for code.
+Version control lets you save your progress so you don't lose it as you go.
+
+Enter commands to save your progress.
+Save them so if they get deleted, you can go back to the last saved version.
+
+Initialize your folder or project with Git:
+git init
+
+Have Git downloaded and installed first.
+
+git add stages your changes.
+It saves changes since the last commit to the staging area.
+
+You can stage a specific file:
+git add filename
+
+Or stage everything:
+git add .
+
+Most people commonly use:
+git add .
+
+All selected files are now staged and ready to be committed.
+
+git commit actually saves those staged changes to Git's history.
+
+git commit -m "This is the commit message"
+git commit -m "Add HTML and CSS file"
+
+Workflow:
+1. git add .
+2. git commit -m "Your message"
+
+git add . stages all changes since the last commit.
+git commit -m saves those staged changes permanently in Git's history along with a message.
+
+Add the files you want to save, then commit them.
+
+git log shows the commit history.
+It is a log of all saved changes.
+
+GitHub is a website for hosting Git repositories, similar to Bitbucket and GitLab.
+
+All saved progress on your local machine can be pushed to GitHub.
+Others can view, clone, and collaborate on your code depending on the repository's permissions.
+"""
+
+
+"""
+Git is a memory card for code.
+Version control lets you save your progress.
+Use git init to initialize a repository.
+Use git add . to stage all changes.
+Use git commit -m "message" to save those changes.
+Use git log to see commit history.
+GitHub lets you store and share repositories online.
+"""
+
+"""
+GIT NOTES
+
+git init
+    Creates a new Git repository.
+
+git add .
+    Stages all changed files.
+
+git commit -m "message"
+    Saves staged changes to the repository.
+
+git log
+    Shows commit history.
+
+GitHub
+    Online service for hosting Git repositories.
+
+
+Repository is a folder. 
+Git push pushes changes to github or the website in question
+Website will have those changes.
+"""
