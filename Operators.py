@@ -123,3 +123,18 @@ string = 'Hello world'
 string2 = 'Eureka!!!'
 
 now_try = 'Trying now'
+
+''' Make a single functionality
+Then make a commit
+To make sure things are clean and trackable
+Git status tells us the changes done locally
+What changes occured after the recent commit
+
+Staging area is local. ;
+We need to shift files to staging area through git add
+Git add . shifts new files to staging area. 
+We can commit changes in staging area
+Only changes in staging area are committed.
+
+
+'''
