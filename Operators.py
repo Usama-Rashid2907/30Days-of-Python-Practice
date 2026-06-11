@@ -121,3 +121,5 @@ dob = '1/1/2000'
 
 string = 'Hello world' 
 string2 = 'Eureka!!!'
+
+now_try = 'Trying now'
