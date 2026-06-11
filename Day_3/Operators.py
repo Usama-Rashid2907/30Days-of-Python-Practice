@@ -107,4 +107,17 @@ GitHub
 Repository is a folder. 
 Git push pushes changes to github or the website in question
 Website will have those changes.
+
+By default, all code is in a master branch. Master memory
+Someone else could trail off, and work on it in another branch.
+Someone could make changes to my code in another branch
+Git checkout -b new-branch
+Checking change
+M means changes are being tracked
+.git folder contains all configuration files. We dont mess with this.
 """
+name = 'Usama  Rashid'
+dob = '1/1/2000'
+
+
+
