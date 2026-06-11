@@ -119,5 +119,66 @@ M means changes are being tracked
 name = 'Usama  Rashid'
 dob = '1/1/2000'
 
+string = 'Hello world' 
+string2 = 'Eureka!!!'
+
+now_try = 'Trying now'
+
+''' Make a single functionality
+Then make a commit
+To make sure things are clean and trackable
+Git status tells us the changes done locally
+What changes occured after the recent commit
+
+Staging area is local. ;
+We need to shift files to staging area through git add
+Git add . shifts new files to staging area. 
+We can commit changes in staging area
+Only changes in staging area are committed.
+
+I can also revert to an older commit
+Some mechanism to go back in case something wrong occurs
+If our commmit history is good, we should be able to go back cleanly
+
+Commits are like linked lists
+Head points to the latest commit
+Changing head to an older committ would do the same thing
+Technically, that would remove the previously latest commit
+We need to be careful when handling heads
+We might lose a lot of our commits
+We might need to remove only a single commit that is in the middle somewhere
+git revert
+git reset
+Git basics are complete now
+study git revert and git reset
 
 
+Git is important for consistent coding
+Across various machines and teams
+Github
+Gitlab
+Bitbucket
+We have several publically available servers where we can push and pull commits
+History can remain on the cloud
+That public server is called Github
+They make a UI layer for us
+Task management as well
+We can make a server on our own as well if need be
+Gitlab and bitbucket are paid, so people dont use them
+Its a slightly social media type platform
+Git init make a local repository
+We made a repo on github, our remote server
+Code on local machine needs to be told to be in sync with github
+git remote -v
+
+
+
+
+
+
+
+
+
+
+
+'''
