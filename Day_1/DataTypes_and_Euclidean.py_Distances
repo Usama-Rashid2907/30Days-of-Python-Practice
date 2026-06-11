@@ -1,0 +1,16 @@
+fruits = ["banana", "orange", "mango", "lemon"] #this is a list if im not wrong 
+print(fruits[0])
+fruits[0] = "avocado" 
+print (fruits)
+
+# Now for a tuple, im going to just replace the square bracked with a round bracket  
+vegetables = ('Carrots', 'Broccoli', 'Spinach')
+print(vegetables[0]) 
+# Since i cannot edit a tuple, as opposed to a list, i will either have to convert the tuple into a list, or leave it as is
+
+# Now i need to try to find the Euclidean distance between two points, lets say (2,3) and (4,5)
+# no math imports, giong to try to do this on my own
+P1 = (2,3)
+P2 = (10,8)
+Euclidean_distance = ((P2[0] - P1[0])**2 + (P2[1] - P1[1])**2)**0.5
+print(Euclidean_distance)
