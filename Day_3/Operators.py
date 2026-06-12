@@ -308,3 +308,12 @@ print(len('python') > len('dragon'))   # False
 print('True == True: ', True == True)
 print('True == False: ', True == False)
 print('False == False:', False == False)
+
+
+print ('1 is 1', 1 is 1) # This should be true ideally
+print ('2 is not 1', 2 is not 1) # Now this ought to be false
+print ('U in Usama Rashid', 'U'in 'Usama Rashid') # Gotta be careful here. Its not is in, its just in.
+print ('coding' in 'I am coding') # This should be true as well
+print ('coding' in 'I am coding in python') # This should be true as well
+print('a in an:', 'a' in 'an')      # True
+print('4 is 2 ** 2:', 4 is 2 ** 2)   # True, I can use expressions and calculations as well
