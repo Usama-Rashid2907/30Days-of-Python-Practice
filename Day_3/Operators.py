@@ -200,3 +200,8 @@ print('Division without the remainder: ', 7 // 2)   # 3,  gives without the floa
 print ('Division without the remainder: ',7 // 3)   # 2
 print('Modulus: ', 3 % 2)         # 1, Gives the remainder
 print('Exponentiation: ', 2 ** 3) # 8 it means 2 * 2 * 2
+
+
+# Floating numbers
+print('Floating Point Number, PI', 3.14)
+print('Floating Point Number, gravity', 9.81)
