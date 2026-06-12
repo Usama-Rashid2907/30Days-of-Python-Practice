@@ -205,3 +205,12 @@ print('Exponentiation: ', 2 ** 3) # 8 it means 2 * 2 * 2
 # Floating numbers
 print('Floating Point Number, PI', 3.14)
 print('Floating Point Number, gravity', 9.81)
+
+# Complex numbers
+print('Complex number: ', 1 + 1j)
+print('Multiplying complex numbers: ',(1 + 1j) * (1 - 1j)) #Woah did that just do the actual calculation?
+''' So if i place numbers after the comma, i can then print them out
+BUT
+If i write a calculation, with an operator, i can then print the number out as well
+Wonder if this works with varibles as well. I might be able to calculate them out too
+'''
