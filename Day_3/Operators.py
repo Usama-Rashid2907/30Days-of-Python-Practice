@@ -361,3 +361,6 @@ Side_b = float(input('Enter side b: '))
 Side_c = float(input('Enter side c: '))
 Perimeter = Side_a + Side_b + Side_c
 print('The Perimeter of triangle is: ', Perimeter)
+
+
+
