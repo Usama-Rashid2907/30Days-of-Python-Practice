@@ -363,4 +363,10 @@ Perimeter = Side_a + Side_b + Side_c
 print('The Perimeter of triangle is: ', Perimeter)
 
 
+length = float(input('Enter length: '))
+width = float(input('Enter width: '))
+Area = length * width
+Parameter = 2 * (length + width)
+print('Area of rectangle is: ', Area)
+print('Perimeter of rectangle is: ', Parameter)
 
