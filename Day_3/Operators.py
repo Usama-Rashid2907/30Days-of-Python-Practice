@@ -334,3 +334,13 @@ print(not not True)  # True
 print(not not False) # False
 
 
+print (True)
+print (False)
+
+print('Addition:', 1+2) # This shuold give me 3
+print('Subtraction:', 2-1) # This should give me 1
+print('Multiplication:', 2*3) # This should give me 6
+print('Division:', 4/2) # DIvision in python would give me a floating number
+print('Division:', 6/2) # This should give me 3.0
+print ('Modulus:', 3%2) # This should give me 1, gives the remainder
+print('Exponentiation:', 2**3) # This should give me 8, it means 2 * 2 * 2
