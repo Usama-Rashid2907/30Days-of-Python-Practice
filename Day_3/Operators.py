@@ -370,3 +370,30 @@ Parameter = 2 * (length + width)
 print('Area of rectangle is: ', Area)
 print('Perimeter of rectangle is: ', Parameter)
 
+
+radius = float(input('Enter radius of circle: '))
+Area = 3.14 * radius ** 2
+Circumference = 2 * 3.14 * radius
+print('Area of circle is: ', Area)
+print('Circumference of circle is: ', Circumference)
+
+
+''' How to do this in code
+Ive got an equation, y=2x-2
+I need to calculate its slope and intercepts
+I also need to do this in code
+The equation is provided to me
+
+
+'''
+
+
+slope = 2
+
+y_intercept = (0, -2)
+
+x_intercept = (1, 0)
+
+print("Slope:", slope)
+print("Y-intercept:", y_intercept)
+print("X-intercept:", x_intercept)
