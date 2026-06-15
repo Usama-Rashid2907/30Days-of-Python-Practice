@@ -344,3 +344,20 @@ print('Division:', 4/2) # DIvision in python would give me a floating number
 print('Division:', 6/2) # This should give me 3.0
 print ('Modulus:', 3%2) # This should give me 1, gives the remainder
 print('Exponentiation:', 2**3) # This should give me 8, it means 2 * 2 * 2
+
+
+# Exercise
+Age = 28
+Height = 35.5
+Complex_Var = 1+2j
+base = float(input('Enter base of triangle: '))
+height = float(input('Enter height of triangle: '))
+Area = 0.5 * base * height
+print('Area of triangle:', Area)
+
+
+Side_a = float(input('Enter side a: '))
+Side_b = float(input('Enter side b: '))
+Side_c = float(input('Enter side c: '))
+Perimeter = Side_a + Side_b + Side_c
+print('The Perimeter of triangle is: ', Perimeter)
