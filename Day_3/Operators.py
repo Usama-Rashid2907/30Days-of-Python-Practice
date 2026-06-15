@@ -397,3 +397,12 @@ x_intercept = (1, 0)
 print("Slope:", slope)
 print("Y-intercept:", y_intercept)
 print("X-intercept:", x_intercept)
+
+
+
+(x1, y1) = (2, 2)  # Y-intercept
+(x2, y2) = (6, 10) # X-intercept
+m = (y2-y1)/(x2-x1)
+print("Slope:", m)
+Euclidean_distance = ((x2-x1)**2 + (y2-y1)**2)**0.5
+print("Euclidean distance between points:", Euclidean_distance)
