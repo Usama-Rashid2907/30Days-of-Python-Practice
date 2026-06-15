@@ -416,3 +416,6 @@ print("Value of y:", y)
 
 print(len('python') > len('dragon'))   # False
 print('on' in 'python' and 'on' in 'dragon') # True
+
+
+print('on' in 'python' and 'on' in 'dragon')
