@@ -406,3 +406,5 @@ m = (y2-y1)/(x2-x1)
 print("Slope:", m)
 Euclidean_distance = ((x2-x1)**2 + (y2-y1)**2)**0.5
 print("Euclidean distance between points:", Euclidean_distance)
+
+print(slope == m)  # True, because the slope from the equation and the calculated slope are equal
