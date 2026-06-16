@@ -436,3 +436,7 @@ print(type('10') == type(10)) # False, because the data type of '10' is str and 
 
 print(type(int('9.8')) == type(10)) # False, because int('9.8') will raise a ValueError since '9.8' is not a valid integer string
 
+
+hours = float(input('Enter hours: '))
+input_rate = float(input('Enter rate per hour: '))  
+print('Weekly earnings:', hours * input_rate)
