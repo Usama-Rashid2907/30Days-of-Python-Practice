@@ -422,3 +422,10 @@ print('on' in 'python' and 'on' in 'dragon')
 
 
 print('in' in 'I hope this course is not full of jargon.')
+
+
+len_python = len('python')
+len_python = float (len_python)
+len_python = str(len_python)
+
+print(7//3 == int(2.7)) # True, because 7//3 is 2 and int(2.7) is also 2
