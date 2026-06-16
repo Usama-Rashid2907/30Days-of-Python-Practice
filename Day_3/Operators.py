@@ -432,3 +432,7 @@ print(7//3 == int(2.7)) # True, because 7//3 is 2 and int(2.7) is also 2
 
 
 print(type('10') == type(10)) # False, because the data type of '10' is str and the data type of 10 is int
+
+
+print(type(int('9.8')) == type(10)) # False, because int('9.8') will raise a ValueError since '9.8' is not a valid integer string
+
