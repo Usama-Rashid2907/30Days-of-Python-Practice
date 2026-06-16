@@ -445,3 +445,10 @@ print('Weekly earnings:', hours * input_rate)
 Age = int(input('Enter the number of years you have lived: '))
 Seconds =Age * 365 * 24 * 60 * 60
 print('You have lived for', Seconds, 'seconds.')
+
+
+print('1 ' * 5)
+print('2 1 2 4 8')
+print('3 1 3 9 27')
+print('4 1 4 16 64')
+print('5 1 5 25 125')
