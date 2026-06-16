@@ -440,3 +440,8 @@ print(type(int('9.8')) == type(10)) # False, because int('9.8') will raise a Val
 hours = float(input('Enter hours: '))
 input_rate = float(input('Enter rate per hour: '))  
 print('Weekly earnings:', hours * input_rate)
+
+
+Age = int(input('Enter the number of years you have lived: '))
+Seconds =Age * 365 * 24 * 60 * 60
+print('You have lived for', Seconds, 'seconds.')
