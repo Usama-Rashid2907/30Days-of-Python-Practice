@@ -60,3 +60,13 @@ print('In every programming language it starts with \"Hello, World!\"') # to wri
 # There's \t to tab
 # There's \\ to do a backlash
 # And finally there \" " to write a "" within a string  
+
+
+# String formatting
+# This is weird, kind of what we used to do in C
+# %s basically means put a string here
+
+first_name = 'Usama'
+last_name = 'Rashid'
+print('My name is %s %s' % (first_name, last_name)) # My name is Usama Rashid')
+
