@@ -75,3 +75,9 @@ radius = 10
 pi = 3.14
 area = pi * radius ** 2
 print('The area of a circle with radius %d is %.2f.' % (radius, area)) # The area of a circle with radius 10 is 314.00.
+
+
+python_libraries = ['Django', 'Flask', 'NumPy', 'Matplotlib','Pandas']
+formated_string = 'The following are python libraries:%s' % (python_libraries)
+print(formated_string) 
+# "The following are python libraries:['Django', 'Flask', 'NumPy', 'Matplotlib','Pandas']"
