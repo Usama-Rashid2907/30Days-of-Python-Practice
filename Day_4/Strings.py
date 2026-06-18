@@ -40,3 +40,23 @@ print(len(first_name))
 print(len(last_name))   
 print(len(first_name) > len(last_name)) 
 print(len(full_name)) 
+
+
+#Escape sequences in strings
+# Escape sequences allow us to use characters that are otherwise difficult to include in a 
+# string. For example, if we want to include a single quote in a string that is enclosed in
+# single quotes, we can use the backslash (\) as an escape character.
+
+print('I hope everyone is enjoying the Python Challenge.\nAre you ?') # line break
+print('Days\tTopics\tExercises') # adding tab space or 4 spaces
+print('Day 1\t5\t5')
+print('Day 2\t6\t20')
+print('Day 3\t5\t23')
+print('Day 4\t1\t35')
+print('This is a backslash  symbol (\\)') # To write a backslash
+print('In every programming language it starts with \"Hello, World!\"') # to write a double quote inside a single quote
+
+# So there's \n to go to a new line
+# There's \t to tab
+# There's \\ to do a backlash
+# And finally there \" " to write a "" within a string  
