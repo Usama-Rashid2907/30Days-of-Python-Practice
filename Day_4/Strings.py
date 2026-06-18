@@ -26,3 +26,12 @@ I didnt find anything as emppowering as educating people.
 This is why the 30 days of python exists"""
 print(multi_line_string2)
 print(len(multi_line_string2))
+
+
+# String Concatenation
+# It is possible to string multiple string together  
+first_name = 'Usama'
+last_name = 'Rashid'
+space = ' '
+full_name = first_name + space + last_name
+print('Full name = ' + full_name)
